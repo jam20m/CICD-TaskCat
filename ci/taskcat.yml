@@ -1,0 +1,12 @@
+global:
+  owner: J.twentyman@curtin.edu.au
+  qsname: test-project
+  regions:
+    - ap-southeast-2
+  reporting: true
+tests:
+  test-scenario1:
+    parameter_input: input.json
+    template_file: s3Bucket.yaml
+    regions:
+    - ap-southeast-2
